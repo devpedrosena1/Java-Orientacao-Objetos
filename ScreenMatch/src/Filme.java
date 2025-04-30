@@ -7,8 +7,11 @@ public class Filme {
     int totalDeAvaliacoes;
     int duracaoEmMinutos;
 
-
     // métodos
+    int getTotalDeAvaliacoes() {
+        return totalDeAvaliacoes;
+    }
+
     void exibreFichaTecnica() {
         System.out.println("Nome do filme: " + nome);
         System.out.println("Ano de lancamento: " + anoDeLancamento);

@@ -13,7 +13,7 @@ public class Main {
         meuFilme.avaliaFilme(9.70);
 
         System.out.println("Soma das avaliações: " + meuFilme.somaDasAvaliacoes);
-        System.out.println("Total de avaliações: " + meuFilme.totalDeAvaliacoes);
+        System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
 
         System.out.println("Média das avaliações: " + meuFilme.pegaMedia());
 
